@@ -1,0 +1,52 @@
+{
+  "n_docs": 3633,
+  "n_duplicate_groups": 41,
+  "chars_removed_share": 0.0119,
+  "doc_rule_impact": {
+    "Normalize Unicode": 592,
+    "Strip leading label": 3626,
+    "Remove copyright": 589,
+    "Normalize headers": 867,
+    "Collapse whitespace": 9
+  },
+  "title_rule_impact": {
+    "Normalize Unicode": 66,
+    "Strip ' - PubMed - NCBI'": 2777,
+    "Unwrap [translated]": 3,
+    "Collapse whitespace": 0
+  },
+  "queries": {
+    "titles": {
+      "train": 2590,
+      "dev": 324,
+      "test": 323
+    },
+    "vid-titles": {
+      "train": 812,
+      "dev": 102,
+      "test": 102
+    },
+    "nontopic-titles": {
+      "train": 1141,
+      "dev": 144,
+      "test": 144
+    },
+    "vid-desc": {
+      "train": 812,
+      "dev": 102,
+      "test": 102
+    },
+    "all": {
+      "train": 2590,
+      "dev": 324,
+      "test": 323
+    }
+  },
+  "qrels_pairs": {
+    "train": 110575,
+    "dev": 11385,
+    "test": 12334
+  },
+  "doc_tokens_over_limit_share": 0.0996,
+  "tokenizer": "BAAI/bge-base-en-v1.5"
+}
